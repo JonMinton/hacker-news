@@ -10,7 +10,7 @@ const FilterBox = ({handleSearchChange}) => {
             <h3>FilterBox</h3>
             <form >
                 <label htmlFor="searchInput">Search Box </label>
-                <input onChange = {handleInputChange} type="text" id="searchInpu" name="searchInput"/>
+                <input onChange = {handleInputChange} type="text" id="searchInput" name="searchInput"/>
             </form>
         </div>
       );
